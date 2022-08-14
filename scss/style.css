@@ -1,0 +1,314 @@
+body {
+  background-color: #e9f0f7;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+body .windowsOverlay {
+  background: #000;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+body header .container .header__top__content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0px;
+}
+
+body header .container .header__top__content .header__social .btn__header__social {
+  font-size: 26px;
+  border: none;
+  color: #004c50;
+  cursor: pointer;
+}
+
+body header .container .header__top__content .number__phone {
+  text-indent: -0.8rem;
+}
+
+body header .container .header__top__content .number__phone .header__number__link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #004c50;
+}
+
+body header .container .header__top__content .top__menu {
+  padding: 0;
+}
+
+body header .container .header__top__content .top__menu .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body header .container .header__top__content .top__menu .list .nav__item {
+  list-style: none;
+  border-right: 1px solid #d7d3d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+body header .container .header__top__content .top__menu .list .nav__item .fa-phone {
+  color: #efb30e;
+  font-size: 26px;
+  padding: 0px 0px 0px 30px;
+}
+
+body header .container .header__top__content .top__menu .list .nav__item .nav__link {
+  text-decoration: none;
+  margin: 1rem 0.3rem;
+  color: #2f2d2d;
+  display: block;
+  font-size: 0.8rem;
+  line-height: 0.5rem;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 0px 4px;
+}
+
+body header .container .header__top__content .top__menu .list .nav__item .nav__link .link__tittle {
+  color: #004c50;
+  padding: 0px 20px 0px 0px;
+}
+
+body header .header__bottom {
+  background-color: #004c50;
+}
+
+body header .header__bottom .header__bottom__content .container {
+  padding: 0px 10px;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .btn__open__catalog {
+  border-bottom: 1px solid black;
+  background-color: #03747a;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 20px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .btn__open__catalog .btn__icon__group .icon_1 {
+  font-size: 18px;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .btn__open__catalog .btn__icon__group .icon_2 {
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .btn__open__catalog .fa-angle-right {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog form .header__search__form__input {
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  border: 1px solid #949494;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog form .btn__form__search {
+  border: 1px solid #949494;
+  border-left: none;
+  position: relative;
+  left: -33px;
+  border-radius: 0px 4px 4px 0px;
+  background-color: white;
+  font-size: 18px;
+  color: #03747a;
+  cursor: pointer;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .account__login {
+  padding: 7px 0px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #03747a;
+  height: 100%;
+  color: #aad3a1;
+  border-right: 1px solid #fcfcfc;
+  border-left: 1px solid #ffffff;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .btn__scales {
+  padding: 10px;
+  border: none;
+  border-right: 1px solid #ffffff;
+  font-size: 18px;
+  background-color: #03747a;
+  height: 100%;
+  color: #f2f3f4;
+  cursor: pointer;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .btn__heart {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  color: #f2f3f4;
+  background-color: #03747a;
+  cursor: pointer;
+  height: 100%;
+  border-right: 1px solid #f9f9f9;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .shoping__cart {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #056193;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  color: #aadd9f;
+  cursor: pointer;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .shoping__cart .fa-cart-shopping {
+  font-size: 16px;
+}
+
+body header .header__bottom .header__bottom__content .container .header__desktop .header__bottom__catalog .shoping__cart span {
+  font-size: 14px;
+}
+
+body main .container {
+  padding: 0px 10px;
+}
+
+body main .container .content__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .container .content__wrapp .nav__menu {
+  background-color: white;
+  border-bottom: 1px solid #ffffff;
+  max-width: 306px;
+  cursor: pointer;
+}
+
+body main .container .content__wrapp .nav__menu .menu__list {
+  padding: 0px 20px 0px 10px;
+}
+
+body main .container .content__wrapp .nav__menu .menu__list .menu__nav__item {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+}
+
+body main .container .content__wrapp .nav__menu .menu__list .menu__nav__item .link__wrap .icon__link {
+  margin-right: 15px;
+}
+
+body main .container .content__wrapp .nav__menu .menu__list .menu__nav__item .link__wrap .menu__nav__link {
+  font-size: 16px;
+}
+
+body main .container .content__wrapp .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+body main .container .content__wrapp .slider .slide__item {
+  max-width: 1073px;
+}
+
+body main .container .content__wrapp .slider .slide__item .slider__image {
+  background-size: cover;
+}
+
+body main article {
+  background-color: #4e7375;
+}
+
+body main article .container .article__contant .article__tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  padding: 20px;
+  color: #87e175;
+}
+/*# sourceMappingURL=style.css.map */

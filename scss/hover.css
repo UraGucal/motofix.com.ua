@@ -1,0 +1,12 @@
+.menu__nav__item:hover {
+  color: #0ac235;
+}
+
+.menu__nav__item:hover .menu__nav__link {
+  text-decoration: none;
+}
+
+.menu__nav__item:hover .fa-angle-right {
+  font-size: 18px;
+}
+/*# sourceMappingURL=hover.css.map */
